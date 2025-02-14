@@ -1,0 +1,60 @@
+body
+{
+min-width: 350px;
+min-height: 450px;
+background-color: rgb(198, 171, 23);
+background-image: linear-gradient(rgb(107, 203, 55), rgb(36, 180, 185));
+text-align: center;
+}
+.outer
+{
+border : 1%;
+padding : 1%;
+color : rgb(5, 82, 110);
+}
+
+#details
+{
+ padding : 2%;
+ border : 1%;
+ border: 2px rgba(17, 2, 2, 0.21) solid;
+ border-radius: 10%;
+ width : auto;
+ border-radius: 10%;
+ background: transparent;
+ color: rgba(29, 6, 6, 0.642);
+ text-align: center;
+}
+
+input[type=text]{
+ background: transparent;
+color: rgba(26, 5, 5, 0.548);
+width: 80%;
+border: 1%;
+padding: 1%;
+border: none;
+border-bottom: 1px solid white;
+color: #270909;
+font-size: 20px;
+}
+button{
+border: 2%;
+padding: 2.5% 4%;
+background-color:crimson;
+border: solid rgba(17, 1, 1, 0.467) 2px;
+color: rgba(31, 5, 5, 0.656);
+font-size: 15px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+button:hover{
+cursor:pointer;
+transform: scale(1.1);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+p{
+font-size: 15px;
+}

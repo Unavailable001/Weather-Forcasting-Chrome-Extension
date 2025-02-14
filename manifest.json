@@ -1,0 +1,11 @@
+{
+    "name": "eAsy Weather",
+    "description": "Simple chrome extension",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": ["geolocation"],
+    "browser_action":{
+        "default_icon": "weather_512.png", 
+        "default_popup": "popup.html" 
+    }
+}

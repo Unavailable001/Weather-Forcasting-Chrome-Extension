@@ -1,0 +1,126 @@
+/* Reset some default browser styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    min-width: 400px;
+    min-height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #597791 0%, #48989c 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Outer Container */
+.outer {
+    background: rgba(220, 219, 219, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Header Styling */
+.outer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1e3c72;
+}
+
+/* Details Section */
+#details {
+    padding: 15px;
+    border: 2px solid #1e3c72;
+    border-radius: 10px;
+    background: #f0f8ff;
+    color: #1e3c72;
+    margin-bottom: 20px;
+    display: none; /* Initially hidden */
+    transition: all 0.3s ease;
+}
+
+#details img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    width: 80%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #1e3c72;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #00c6ff;
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1e3c72;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #00c6ff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 198, 255, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    .outer {
+        padding: 15px 20px;
+    }
+
+    #details img {
+        width: 60px;
+        height: 60px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
